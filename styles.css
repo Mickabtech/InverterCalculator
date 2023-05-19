@@ -133,7 +133,10 @@ input::placeholder{
 }
 
 table, th, td {
-    margin-top: -15px;
     border:1px solid black;
     margin-left: 15px;
+  }
+
+  table{
+    margin-top: -35px;
   }
