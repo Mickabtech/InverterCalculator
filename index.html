@@ -9,15 +9,21 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-
+    <nav>
+       <h1>MyCalc</h1>
+       <div class="auth">
+        <a href="./load.html"><button id="login">Load Calculator</button></a>
+            <a href="./index.html"><button>Inverter Calculator</button></a>
+        </div>
+    </nav>
     <main>
         <h1>Inverter Calculator</h1>
         <section>
             <form action="">
                 <h2>Total Watt</h2>
-                <input type="text" id="inpt1" placeholder="Enter your load total wattage">
+                <input type="text" id="inpt1" class='input' placeholder="Enter your load total wattage">
                 <h2>Total WattHour</h2>
-                <input type="text" id="inpt2" placeholder="Enter your load total watt hour"></span><br>
+                <input type="text" id="inpt2" class='input'  placeholder="Enter your load total watt hour"></span><br>
                 <button type="submit" id="submit" >Submit</button>
             </form>
         </section>
