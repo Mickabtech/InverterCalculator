@@ -9,7 +9,7 @@ const navMenu = document.querySelector(".auth");
 hamburger.addEventListener("click", () =>{
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
-})
+});
 
 btn.addEventListener("click", (e) => {
     e.preventDefault();
@@ -35,7 +35,7 @@ btn.addEventListener("click", (e) => {
     "For a 12v 220ah batteries, " + Math.ceil(deal) + " " + "Batteries";
 });
 
-closeModal.addEventListener("click", () => {
+closeModal.addEventListener("click", () =>{
   modal.style.display = "none";
   err.textContent = "";
 });
