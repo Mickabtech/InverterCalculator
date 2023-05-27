@@ -3,6 +3,14 @@ const modal = document.getElementById("modal");
 const closeModal = document.querySelector("span");
 const btn101 = document.getElementById("btn101");
 
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".auth");
+
+hamburger.addEventListener("click", () =>{
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+})
+
 btn.addEventListener("click", (e) => {
     e.preventDefault();
     modal.style.display = "flex";

@@ -1,3 +1,11 @@
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".auth");
+
+hamburger.addEventListener("click", () =>{
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+})
+
 btn101.addEventListener("click", (e) => {
     const w1 = document.getElementById("w1").value;
     const w2 = document.getElementById("w2").value;
