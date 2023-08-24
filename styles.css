@@ -60,6 +60,9 @@ main{
     height: 100vh;
     width: 100%;
     background-image: url(./asset/Solar_panel_and_devices.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     flex-direction: column;
     justify-content: center;
     gap: 20px;
